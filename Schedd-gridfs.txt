@@ -1,0 +1,186 @@
+09/09/19 12:02:02 KEYCACHE: created: 0x2396150
+09/09/19 12:02:02 Can't open directory "/opt/condor//config" as PRIV_UNKNOWN, errno: 2 (No such file or directory)
+09/09/19 12:02:02 Cannot open /opt/condor//config: No such file or directory
+09/09/19 12:02:02 Setting maximum file descriptors to 4096.
+09/09/19 12:02:02 ******************************************************
+09/09/19 12:02:02 ** condor_schedd (CONDOR_SCHEDD) STARTING UP
+09/09/19 12:02:02 ** /usr/local/nsg/condor/sbin/condor_schedd
+09/09/19 12:02:02 ** SubsystemInfo: name=SCHEDD type=SCHEDD(5) class=DAEMON(1)
+09/09/19 12:02:02 ** Configuration: subsystem:SCHEDD local:<NONE> class:DAEMON
+09/09/19 12:02:02 ** $CondorVersion: 8.8.4 Jul 09 2019 BuildID: 474941 $
+09/09/19 12:02:02 ** $CondorPlatform: x86_64_RedHat7 $
+09/09/19 12:02:02 ** PID = 95518
+09/09/19 12:02:02 ** Log last touched 9/9 12:01:08
+09/09/19 12:02:02 ******************************************************
+09/09/19 12:02:02 Using config source: /usr/local/nsg/condor/etc/condor_config
+09/09/19 12:02:02 Using local config sources:
+09/09/19 12:02:02    /opt/condor//condor_config.local
+09/09/19 12:02:02 config Macros = 96, Sorted = 96, StringBytes = 3454, TablesBytes = 3504
+09/09/19 12:02:02 CLASSAD_CACHING is ENABLED
+09/09/19 12:02:02 Daemon Log is logging: D_ALWAYS D_ERROR D_SECURITY
+09/09/19 12:02:02 SharedPortEndpoint: waiting for connections to named socket 95471_0ec0_4
+09/09/19 12:02:02 SECMAN: created non-negotiated security session 4237aaecca6c7817a3dbced4fe46346d86a124ce3815b3e8 for 0 (inf) seconds.
+09/09/19 12:02:02 SECMAN: now creating non-negotiated command mappings
+09/09/19 12:02:02 IpVerify::PunchHole: opened DAEMON level to condor@parent
+09/09/19 12:02:02 IpVerify::PunchHole: opened WRITE level to condor@parent
+09/09/19 12:02:02 IpVerify::PunchHole: opened READ level to condor@parent
+09/09/19 12:02:02 IpVerify::PunchHole: open count at level READ for condor@parent now 2
+09/09/19 12:02:02 DaemonCore: command socket at <10.180.141.148:9618?addrs=10.180.141.148-9618&noUDP&sock=95471_0ec0_4>
+09/09/19 12:02:02 DaemonCore: private command socket at <10.180.141.148:9618?addrs=10.180.141.148-9618&noUDP&sock=95471_0ec0_4>
+09/09/19 12:02:02 History file rotation is enabled.
+09/09/19 12:02:02   Maximum history file size is: 20971520 bytes
+09/09/19 12:02:02   Number of rotated history files is: 2
+09/09/19 12:02:02 IpVerify::PunchHole: opened CLIENT level to execute-side@matchsession
+09/09/19 12:02:02 Reloading job factories
+09/09/19 12:02:02 Loaded 0 job factories, 0 were paused, 0 failed to load
+09/09/19 12:02:02 SECMAN: command 60008 DC_CHILDALIVE to daemon at <10.180.141.148:9618> from TCP port 21368 (blocking).
+09/09/19 12:02:02 SECMAN: using session 4237aaecca6c7817a3dbced4fe46346d86a124ce3815b3e8 for {<10.180.141.148:9618?addrs=10.180.141.148-9618&noUDP&sock=95471_0ec0>,<60008>}.
+09/09/19 12:02:02 SECMAN: startCommand succeeded.
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission ALLOW
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission READ
+09/09/19 12:02:02 IPVERIFY: allow READ: * (from config value ALLOW_READ)
+09/09/19 12:02:02 ipverify: READ optimized to allow anyone
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission WRITE
+09/09/19 12:02:02 IPVERIFY: allow WRITE: gridfs.nsgtest.cdac.in, 10.180.141.148, 10.180.141.148 (from config value ALLOW_WRITE)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission NEGOTIATOR
+09/09/19 12:02:02 IPVERIFY: allow NEGOTIATOR: gridfs.nsgtest.cdac.in, grid-1-0.nsgtest.cdac.in, 10.180.141.148 (from config value ALLOW_NEGOTIATOR_SCHEDD)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission ADMINISTRATOR
+09/09/19 12:02:02 IPVERIFY: allow ADMINISTRATOR: gridfs.nsgtest.cdac.in, 10.180.141.148 (from config value ALLOW_ADMINISTRATOR)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission OWNER
+09/09/19 12:02:02 IPVERIFY: allow OWNER: gridfs.nsgtest.cdac.in, gridfs.nsgtest.cdac.in, 10.180.141.148 (from config value ALLOW_OWNER)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission CONFIG
+09/09/19 12:02:02 ipverify: CONFIG optimized to deny everyone
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission DAEMON
+09/09/19 12:02:02 IPVERIFY: allow DAEMON: gridfs.nsgtest.cdac.in, 10.180.141.148, 10.180.141.148 (from config value ALLOW_WRITE)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission SOAP
+09/09/19 12:02:02 ipverify: SOAP optimized to allow anyone
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission DEFAULT
+09/09/19 12:02:02 ipverify: DEFAULT optimized to allow anyone
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission CLIENT
+09/09/19 12:02:02 ipverify: CLIENT optimized to allow anyone
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission ADVERTISE_STARTD
+09/09/19 12:02:02 IPVERIFY: allow ADVERTISE_STARTD: gridfs.nsgtest.cdac.in, 10.180.141.148, 10.180.141.148 (from config value ALLOW_WRITE)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission ADVERTISE_SCHEDD
+09/09/19 12:02:02 IPVERIFY: allow ADVERTISE_SCHEDD: gridfs.nsgtest.cdac.in, 10.180.141.148, 10.180.141.148 (from config value ALLOW_WRITE)
+09/09/19 12:02:02 IPVERIFY: Subsystem SCHEDD
+09/09/19 12:02:02 IPVERIFY: Permission ADVERTISE_MASTER
+09/09/19 12:02:02 IPVERIFY: allow ADVERTISE_MASTER: gridfs.nsgtest.cdac.in, 10.180.141.148, 10.180.141.148 (from config value ALLOW_WRITE)
+09/09/19 12:02:08 TransferQueueManager stats: active up=0/100 down=0/100; waiting up=0 down=0; wait time up=0s down=0s
+09/09/19 12:02:08 TransferQueueManager upload 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+09/09/19 12:02:08 TransferQueueManager download 1m I/O load: 0 bytes/s  0.000 disk load  0.000 net load
+09/09/19 12:02:08 SECMAN: command 1 UPDATE_SCHEDD_AD to collector gridfs.nsgtest.cdac.in from TCP port 18844 (non-blocking).
+09/09/19 12:02:08 SECMAN: waiting for TCP connection to collector gridfs.nsgtest.cdac.in.
+09/09/19 12:02:08 SECMAN: resuming command 1 UPDATE_SCHEDD_AD to collector gridfs.nsgtest.cdac.in from TCP port 18844 (non-blocking).
+09/09/19 12:02:08 SECMAN: resuming command 1 UPDATE_SCHEDD_AD to collector gridfs.nsgtest.cdac.in from TCP port 18844 (non-blocking).
+09/09/19 12:02:08 SECMAN: added session gridfs:95516:1568010728:3 to cache for 86400 seconds (3600s lease).
+09/09/19 12:02:08 SECMAN: startCommand succeeded.
+09/09/19 12:02:55 DC_AUTHENTICATE: received DC_AUTHENTICATE from <10.180.141.148:22978>
+09/09/19 12:02:55 DC_AUTHENTICATE: generating 3DES key for session gridfs:95518:1568010775:0...
+09/09/19 12:02:55 SECMAN: new session, doing initial authentication.
+09/09/19 12:02:55 Returning to DC while we wait for socket to authenticate.
+09/09/19 12:02:55 AUTHENTICATE: setting timeout for (unknown) to 20.
+09/09/19 12:02:55 HANDSHAKE: in handshake(my_methods = 'KERBEROS')
+09/09/19 12:02:55 HANDSHAKE: handshake() - i am the server
+09/09/19 12:02:55 HANDSHAKE: client sent (methods == 64)
+09/09/19 12:02:55 HANDSHAKE: i picked (method == 64)
+09/09/19 12:02:55 HANDSHAKE: client received (method == 64)
+09/09/19 12:02:55 Will return to DC because authentication is incomplete.
+09/09/19 12:02:55 KERBEROS: entered authenticate_continue, state==100
+09/09/19 12:02:55 About to authenticate client using Kerberos
+09/09/19 12:02:55 KERBEROS: Server principal is host/gridfs.nsgtest.cdac.in@NSGTEST.CDAC.IN
+09/09/19 12:02:55 Reading kerberos request object (krb5_rd_req)
+09/09/19 12:02:55 KERBEROS: leaving authenticate_continue, state==102, return=2
+09/09/19 12:02:55 AUTHENTICATE: auth would still block
+09/09/19 12:02:55 Will return to DC to continue authentication..
+09/09/19 12:02:55 KERBEROS: entered authenticate_continue, state==102
+09/09/19 12:02:55 KERBEROS: krb5_unparse_name: asvija@NSGTEST.CDAC.IN
+09/09/19 12:02:55 KERBEROS: no user yet determined, will grab up to slash
+09/09/19 12:02:55 KERBEROS: picked user: asvija
+09/09/19 12:02:55 Client is asvija@nsgtest.cdac.in
+09/09/19 12:02:55 User asvija is now authenticated!
+09/09/19 12:02:55 KERBEROS: leaving authenticate_continue, state==102, return=1
+09/09/19 12:02:55 Authentication was a Success.
+09/09/19 12:02:55 ZKM: setting default map to asvija@nsgtest.cdac.in
+09/09/19 12:02:55 ZKM: name to map is 'asvija@NSGTEST.CDAC.IN'
+09/09/19 12:02:55 ZKM: pre-map: current user is 'asvija'
+09/09/19 12:02:55 ZKM: pre-map: current domain is 'nsgtest.cdac.in'
+09/09/19 12:02:55 ZKM: Parsing map file.
+09/09/19 12:02:55 ZKM: attempting to map 'asvija@NSGTEST.CDAC.IN'
+09/09/19 12:02:55 ZKM: 1: attempting to map 'asvija@NSGTEST.CDAC.IN'
+09/09/19 12:02:55 ZKM: 2: mapret: 0 included_voms: 0 canonical_user: asvija@NSGTEST.CDAC.IN
+09/09/19 12:02:55 ZKM: found user asvija@NSGTEST.CDAC.IN, splitting.
+09/09/19 12:02:55 ZKM: post-map: current user is 'asvija'
+09/09/19 12:02:55 ZKM: post-map: current domain is 'nsgtest.cdac.in'
+09/09/19 12:02:55 ZKM: post-map: current FQU is 'asvija@nsgtest.cdac.in'
+09/09/19 12:02:55 AUTHENTICATE: Exchanging keys with remote side.
+09/09/19 12:02:55 AUTHENTICATE: Result of end of authenticate is 1.
+09/09/19 12:02:55 DC_AUTHENTICATE: authentication of 10.180.141.148 complete.
+09/09/19 12:02:55 DC_AUTHENTICATE: Success.
+09/09/19 12:02:55 IPVERIFY: matched user asvija@nsgtest.cdac.in from 10.180.141.148 to allow list
+09/09/19 12:02:55 IPVERIFY: for gridfs.nsgtest.cdac.in matched 10.180.141.148 to 10.180.141.148
+09/09/19 12:02:55 IPVERIFY: for gridfs matched 10.180.141.148 to 10.180.141.148
+09/09/19 12:02:55 PERMISSION GRANTED to asvija@nsgtest.cdac.in from host 10.180.141.148 for command 1112 (QMGMT_WRITE_CMD), access level WRITE: reason: WRITE authorization policy allows IP address 10.180.141.148; identifiers used for this remote host: 10.180.141.148,gridfs.nsgtest.cdac.in,gridfs
+09/09/19 12:02:55 DC_AUTHENTICATE: added incoming session id gridfs:95518:1568010775:0 to cache for 80 seconds (lease is 3620s, return address is unknown).
+09/09/19 12:02:55 PERMISSION GRANTED to asvija@nsgtest.cdac.in from host 10.180.141.148 for queue management, access level WRITE: reason: cached result for WRITE; see first case for the full reason
+09/09/19 12:02:55 PERMISSION GRANTED to asvija@nsgtest.cdac.in from host 10.180.141.148 for queue management, access level WRITE: reason: cached result for WRITE; see first case for the full reason
+09/09/19 12:02:55 DC_AUTHENTICATE: received DC_AUTHENTICATE from <10.180.141.148:11296>
+09/09/19 12:02:55 DC_AUTHENTICATE: resuming session id gridfs:95518:1568010775:0:
+09/09/19 12:02:55 SECMAN: other side is $CondorVersion: 8.8.4 Jul 09 2019 BuildID: 474941 $, NOT reauthenticating.
+09/09/19 12:02:55 DC_AUTHENTICATE: Success.
+09/09/19 12:02:55 PERMISSION GRANTED to asvija@nsgtest.cdac.in from host 10.180.141.148 for command 421 (RESCHEDULE), access level WRITE: reason: cached result for WRITE; see first case for the full reason
+09/09/19 12:02:55 SECMAN: created non-negotiated security session e43b6aed71fc2fd20af8163cb17d5e3d5e169f482c5efad8 for 0 (inf) seconds.
+09/09/19 12:02:55 SECMAN: now creating non-negotiated command mappings
+09/09/19 12:02:55 IpVerify::PunchHole: opened DAEMON level to condor@child
+09/09/19 12:02:55 IpVerify::PunchHole: opened WRITE level to condor@child
+09/09/19 12:02:55 IpVerify::PunchHole: opened READ level to condor@child
+09/09/19 12:02:55 IpVerify::PunchHole: open count at level READ for condor@child now 2
+09/09/19 12:02:55 SECMAN: exporting session info for e43b6aed71fc2fd20af8163cb17d5e3d5e169f482c5efad8: [ValidCommands="60000,60008,60026,60017,510,71003,60004,60012,60021,421,478,480,486,488,489,487,499,502,464,1112,481,509,511,521,74000,507,60007,457,60020,443,441,6,12,515,516,519,1111,471";CryptoMethods="3DES";Encryption="NO";Integrity="NO";]
+09/09/19 12:02:55 Started condor_gmanager for owner asvija pid=95546
+09/09/19 12:02:55 SECMAN: command 50 QUERY_NEGOTIATOR_ADS to collector at <10.180.141.148:9618> from TCP port 22047 (blocking).
+09/09/19 12:02:55 SECMAN: added session gridfs:95516:1568010775:4 to cache for 86400 seconds (3600s lease).
+09/09/19 12:02:55 SECMAN: startCommand succeeded.
+09/09/19 12:02:55 SECMAN: command 421 RESCHEDULE to negotiator gridfs.nsgtest.cdac.in from TCP port 27100 (non-blocking).
+09/09/19 12:02:55 SECMAN: waiting for TCP connection to negotiator gridfs.nsgtest.cdac.in.
+09/09/19 12:02:55 SECMAN: resuming command 421 RESCHEDULE to negotiator gridfs.nsgtest.cdac.in from TCP port 27100 (non-blocking).
+09/09/19 12:02:55 SECMAN: resuming command 421 RESCHEDULE to negotiator gridfs.nsgtest.cdac.in from TCP port 27100 (non-blocking).
+09/09/19 12:02:55 SECMAN: added session gridfs:95517:1568010775:0 to cache for 86400 seconds (3600s lease).
+09/09/19 12:02:55 SECMAN: startCommand succeeded.
+09/09/19 12:02:55 DaemonCommandProtocol: Not enough bytes are ready for read.
+09/09/19 12:02:55 DC_AUTHENTICATE: received DC_AUTHENTICATE from <10.180.141.148:6019>
+09/09/19 12:02:55 DC_AUTHENTICATE: resuming session id e43b6aed71fc2fd20af8163cb17d5e3d5e169f482c5efad8:
+09/09/19 12:02:55 DC_AUTHENTICATE: Success.
+09/09/19 12:02:55 PERMISSION GRANTED to condor@child from host 10.180.141.148 for command 60008 (DC_CHILDALIVE), access level DAEMON: reason: DAEMON authorization has been made automatic for condor@child
+09/09/19 12:02:59 DaemonCommandProtocol: Not enough bytes are ready for read.
+09/09/19 12:02:59 DC_AUTHENTICATE: received DC_AUTHENTICATE from <10.180.141.148:12418>
+09/09/19 12:02:59 DC_AUTHENTICATE: resuming session id e43b6aed71fc2fd20af8163cb17d5e3d5e169f482c5efad8:
+09/09/19 12:02:59 DC_AUTHENTICATE: Success.
+09/09/19 12:02:59 PERMISSION GRANTED to condor@child from host 10.180.141.148 for command 1112 (QMGMT_WRITE_CMD), access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:02:59 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 DaemonCommandProtocol: Not enough bytes are ready for read.
+09/09/19 12:03:54 DC_AUTHENTICATE: received DC_AUTHENTICATE from <10.180.141.148:25992>
+09/09/19 12:03:54 DC_AUTHENTICATE: resuming session id e43b6aed71fc2fd20af8163cb17d5e3d5e169f482c5efad8:
+09/09/19 12:03:54 DC_AUTHENTICATE: Success.
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for command 1112 (QMGMT_WRITE_CMD), access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 PERMISSION GRANTED to condor@child from host 10.180.141.148 for queue management, access level WRITE: reason: WRITE authorization has been made automatic for condor@child
+09/09/19 12:03:54 condor_gridmanager (PID 95546, owner asvija) exited with return code 0.
